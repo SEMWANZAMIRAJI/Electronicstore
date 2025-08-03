@@ -1,4 +1,8 @@
+{% load static %}
+
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -73,7 +77,8 @@
       <!-- Right: Logo Image + Cart + Menu -->
       <div class="d-flex align-items-center gap-3">
         <!-- Your Logo Image -->
-        <img src="/media/products/logo.jpg" alt="ElectroTech Logo" class="img-fluid rounded" style="width: 60px; height: auto;" />
+        <img src="{% static 'images/logo.png' %}" alt="Logo" class="img-fluid rounded" style="width: 60px; height: auto;"/>
+        {% comment %} <img src="/media/products/logo.jpg" alt="ElectroTech Logo"  style="width: 60px; height: auto;" /> {% endcomment %}
 
         <!-- Shopping Cart Button -->
         <button class="btn" aria-label="Shopping Cart">
