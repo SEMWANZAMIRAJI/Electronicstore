@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Media files (user uploads)
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environment folders
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Django migrations (optional: you can track migrations if you want)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Static files (optional if you collectstatic to a folder)
+staticfiles/
+gi
