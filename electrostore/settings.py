@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-3agfa=ke_oaoa!jl8blri!2gvwy!9r@q61v_f@f8j%wrp&+rqc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'electronicstore.deploy.tz',
+]
+
 
 
 # Application definition
