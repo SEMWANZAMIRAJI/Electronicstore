@@ -76,4 +76,4 @@ htmlcov/
 !*/migrations/__init__.py
 
 # Static files (optional if you collectstatic to a folder)
-staticfiles/
+
